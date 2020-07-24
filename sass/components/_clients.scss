@@ -1,0 +1,70 @@
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients a {
+  transition-property: border-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $border-color;
+  stroke-width: 1px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-item {
+  /* fill: #afb1b8; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a:hover,
+  a:focus {
+    border-color: $accent-color;
+    fill: $accent-color;
+    --color2: $accent-color;
+    border-width: 2px;
+  }
+}
+
+.clients-icon-6 {
+  width: 88px;
+  height: 45px;
+}
+
+.clients-icon-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.clients-icon-4 {
+  width: 80px;
+  height: 42px;
+}
+
+.clients-icon-3 {
+  width: 41px;
+  height: 43px;
+}
+
+.clients-icon-2 {
+  width: 40px;
+  height: 52px;
+}
+
+.clients-icon-1 {
+  width: 44px;
+  height: 49px;
+}

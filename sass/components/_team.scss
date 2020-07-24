@@ -1,0 +1,49 @@
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
+}
+
+.team .container {
+  background-color: #f5f4fa;
+}
+
+.team-overlay {
+  background-color: #fff;
+  padding-top: 30px;
+  padding-bottom: 24px;
+}
+
+.team-list .link {
+  text-decoration: none;
+}
+
+.team-list .social-link:hover,
+.team-list .social-link:focus {
+  background-color: $accent-color;
+}
+
+.team-list .item {
+  width: calc((100% - 90px) / 4);
+  text-align: center;
+
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+  overflow: hidden;
+  border: $border-color;
+}
+
+.team-list .item + .item {
+  margin-left: 30px;
+}
+
+.smm {
+  display: flex;
+  justify-content: center;
+}
+
+.smm .list {
+  justify-content: center;
+  align-items: center;
+}

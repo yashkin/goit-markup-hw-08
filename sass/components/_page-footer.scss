@@ -1,0 +1,148 @@
+footer,
+.footer-flex {
+  background-color: #2f303a;
+}
+
+.footer-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.footer-nav {
+  width: calc((100% - 60px) / 2);
+}
+
+.footer-nav .title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $primary-white-color;
+}
+
+.footer-contacts {
+  width: calc((100% - 60px) / 4);
+}
+
+.social {
+  width: calc((100% - 60px) / 4);
+}
+
+.social .list {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social .item:not(:first-child) {
+  margin-left: 10px;
+}
+
+.social .link {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.social .link {
+  transition-property: fill, color;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.social .title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $primary-white-color;
+  text-align: center;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+}
+
+.address .link {
+  transition-property: fill, color;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+  margin-top: 9px;
+  display: block;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.address-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.mailing {
+  margin-left: 94px;
+}
+
+.mailing-form {
+  position: relative;
+  display: flex;
+}
+
+.mail-input {
+  display: inline-block;
+  width: 358px;
+  height: 50px;
+  padding-left: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #2f303a;
+}
+
+.btn.submit {
+  display: inline-flex;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  margin-left: 12px;
+}
+
+.submit-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  fill: yellow;
+}
