@@ -1,12 +1,18 @@
-@import './utils/variables';
-@import './components/common';
-@import './components/logo';
-@import './components/page-header';
-@import './components/hero';
-@import './components/modal';
-@import './components/features';
-@import './components/wedo';
-@import './components/team';
-@import './components/clients';
-@import './components/page-footer';
-@import './components/works';
+// Utils
+@import "./utils/normalize";
+@import "./utils/breakpoints";
+
+// Variables
+@import "./utils/variables";
+@import "./utils/styles";
+
+// Components
+@import "./components/header";
+@import "./components/main-hero";
+@import "./components/modal";
+@import "./components/main-directions";
+@import "./components/main-advantages";
+@import "./components/main-team";
+@import "./components/main-customers";
+@import "./components/portfolio";
+@import "./components/footer";
